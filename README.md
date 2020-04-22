@@ -15,5 +15,6 @@ A rank of 2416 / 6284 (at time of submission) with an RMSE value of 0.96224 was 
 Contains 2 files: 
 - Segmentation Project
 - Decision Tree Segmentation <br/> <br/>
+
 The first file contains a notebook for a segmentation project worked on in the past during a previous role. It goes through the process of creating a segmentation and coming to a solution on the chosen number of clusters. <br/>
 The second contains the segmentation and then fits a decision tree to the clusters so a series of rules could be generated so that future customers can be assigned to a cluster and existing customers can be reassigned if their behaviour has changed without re running the python script. These rules were implemented within SQL so they could be re-run at a specified time (weekly, monthly etc.) and then the original segmentation and decision tree updated at a larger interval (half yearly, yearly, etc.).
